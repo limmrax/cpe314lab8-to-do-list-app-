@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1 id="title">Original Title</h1>
+    <button onclick="changeTitle()">Change Title</button>
+    <script>
+        function changeTitle() {
+            document.getElementById("title").innerHTML = "New Title!";
+        }
+    </script>
+</body>
+</html>
